@@ -37,6 +37,7 @@
 		respawn="true" >
 	</node>
 
+
 	<!--Image processor-->
 	<node name="ros_img_processor"
 		pkg="ros_img_processor"
@@ -46,6 +47,8 @@
 		<remap from="/ros_img_processor/image_in" to="/usb_cam/image_rect_color"/>
 		<remap from="/ros_img_processor/camera_info_in" to="/usb_cam/camera_info"/>
 	</node>
+
+
 
 	<!-- display in/out image -->
 	<group if="$(arg show_image)">

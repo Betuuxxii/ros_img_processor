@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bet/catkin_ws/src/ros_img_processor/src/circle_detector.cpp
+opencv2/opencv.hpp
+/home/bet/catkin_ws/src/ros_img_processor/src/opencv2/opencv.hpp
+opencv2/core.hpp
+/home/bet/catkin_ws/src/ros_img_processor/src/opencv2/core.hpp
+opencv2/imgproc.hpp
+/home/bet/catkin_ws/src/ros_img_processor/src/opencv2/imgproc.hpp
+opencv2/videoio.hpp
+/home/bet/catkin_ws/src/ros_img_processor/src/opencv2/videoio.hpp
+opencv2/video.hpp
+/home/bet/catkin_ws/src/ros_img_processor/src/opencv2/video.hpp
+iostream
+-
+cstdlib
+-
+vector
+-
+
